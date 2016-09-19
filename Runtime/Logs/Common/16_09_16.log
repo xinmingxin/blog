@@ -1,0 +1,12 @@
+[ 2016-09-16T21:09:40+08:00 ] ::1 /blog/index.php/contact.php.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+ERR: 无法加载模块:Contact.php
+
+[ 2016-09-16T21:10:06+08:00 ] ::1 /blog/index.php/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+ERR: 无法加载模块:Contact
+
