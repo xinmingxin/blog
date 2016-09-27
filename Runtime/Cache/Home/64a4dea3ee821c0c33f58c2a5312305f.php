@@ -49,7 +49,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="header-top">
 						<div class="container">
 							<div class="logo.two">
-								<a href="index.html"><h1>我的博客</h1></a>
+								<a href="<?php echo U('/Home/Index');?>"><h1>我的博客</h1></a>
 							</div>
 						</div>
 						</div>

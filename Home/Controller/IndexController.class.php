@@ -23,9 +23,9 @@ class IndexController extends Controller {
         $this->show();
     }
     public function suggest(){
-        I('')
-        if (empty) {
+        // I('')；
+        // if (empty) {
             # code...
-        }
+        // }
     }
 }

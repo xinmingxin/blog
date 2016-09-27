@@ -49,7 +49,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="header-top">
 						<div class="container">
 							<div class="logo.two">
-								<a href="index.html"><h1>我的博客</h1></a>
+								<a href="<?php echo U('/Home/Index');?>"><h1>我的博客</h1></a>
 							</div>
 						</div>
 						</div>
@@ -106,13 +106,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			<!--start-smoth-scrolling-->
 			<script type="text/javascript">
-								jQuery(document).ready(function($) {
-									$(".scroll").click(function(event){		
-										event.preventDefault();
-										$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-									});
-								});
-								</script>
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+						event.preventDefault();
+						$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					});
+				});
+				$()				
+			</script>
 							<!--start-smoth-scrolling-->
 						
 		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
