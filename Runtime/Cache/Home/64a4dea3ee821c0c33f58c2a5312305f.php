@@ -22,15 +22,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="navbar">
 				 <a class="menu" href="#"><i class="icon-align-justify">
 				 </i></a>
-				 <a class="link hme" href="index.html">
+				 <a class="link hme" href="<?php echo U('/Home/Index');?>">
 					<span class="active"><span class="valign"><span class="vertical">首页</span></span></span>
 					<span class="hover"><span class="valign"><span class="vertical">首页</span></span></span>
 				  </a>
-				   <a class="link con" href="contact.html">
+				   <a class="link con" href="<?php echo U('/Home/Index/contact');?>">
 					<span class="active"><span class="valign"><span class="vertical">联系我</span></span></span>
 					<span class="hover"><span class="valign"><span class="vertical">联系我</span></span></span>
 				  </a>
-				  <a class="link con" href="about.html">
+				  <a class="link con" href="<?php echo U('/Home/Index/about');?>">
 					<span class="active"><span class="valign"><span class="vertical">关于</span></span></span>
 					<span class="hover"><span class="valign"><span class="vertical">关于</span></span></span>
 				  </a>
